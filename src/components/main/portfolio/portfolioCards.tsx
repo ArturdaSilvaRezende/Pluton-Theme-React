@@ -33,6 +33,7 @@ export const CardsContainer = (props: itemFilter) => {
           }
         });
       }
+      return "";
     });
   }, [category]);
 
@@ -58,6 +59,8 @@ export const CardsContainer = (props: itemFilter) => {
           }
         });
       }
+
+      return "";
     });
   }, [category]);
 

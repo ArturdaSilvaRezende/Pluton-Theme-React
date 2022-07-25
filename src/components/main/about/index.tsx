@@ -1,4 +1,3 @@
-import { MutableRefObject } from "react";
 import * as C from "./style";
 import { Title } from "../../../shared/style/title";
 import { Triangle } from "../../../shared/style/triangle";

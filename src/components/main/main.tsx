@@ -21,11 +21,12 @@ export const Main = () => {
     if (scrollRef !== null) {
       (scrollRef as MutableRefObject<HTMLDivElement[]>).current.forEach(
         function (e: El) {
-          if (window.pageYOffset > e.offsetTop - 510) {
+          if (window.pageYOffset + (window.innerHeight * 3) / 4 > e.offsetTop) {
             e.classList.add("data-scroll-show-items");
           } else {
             e.classList.remove("data-scroll-show-items");
           }
+          console.log(window.pageYOffset + (window.innerHeight * 3) / 4);
         }
       );
     }
