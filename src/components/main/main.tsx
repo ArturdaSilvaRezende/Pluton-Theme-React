@@ -26,7 +26,6 @@ export const Main = () => {
           } else {
             e.classList.remove("data-scroll-show-items");
           }
-          console.log(window.pageYOffset + (window.innerHeight * 3) / 4);
         }
       );
     }
@@ -36,13 +35,7 @@ export const Main = () => {
     window.addEventListener("scroll", () => {
       handleScroll();
     });
-
-    if ((scrollRef as MutableRefObject<HTMLDivElement[]>).current.length) {
-      window.addEventListener("scroll", () => {
-        handleScroll();
-      });
-    }
-  }, [handleScroll, scrollRef]);
+  }, [handleScroll]);
 
   return (
     <main>
