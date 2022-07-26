@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+![Videograph-Maste](https://github.com/ArturdaSilvaRezende/Pluton-Theme-React/blob/master/pluton-theme-react.PNG)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Pluton Theme React
+
+Esse projeto teve como foco, os seguintes temas:
+
+- Conceitos básicos de Typescript
+- utilização do Typescript junto com o React
 
 ## Scripts Disponíveis
 
@@ -31,4 +36,4 @@ Seu aplicativo está pronto para ser implantado!
 
 #### O site do projeto está hospedado no "netlify", caso você queira fazer uma visita ao site, basta clicar no link abaixo
 
-[Videograph-Master](https://videograph-master.netlify.app/).
+[Pluton Theme React](https://pluton-theme-react.netlify.app/).
